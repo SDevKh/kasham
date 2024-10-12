@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ksham Innovation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<header class="header">
+    <nav>
+        <ul class="sidebar">
+            <li onclick=hideSidebar()>
+                <a href="#"> <img class="close" src="pics/close.png"></a>
+            </li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">ABOUT US</a></li>
+        </ul>
+        <ul>
+            <li><a href="#"><img class="logo" src="pics/download.png"> </a></li>
+            <li class="hideOnMobile"><a href="#">Home</a></li>
+            <li class="hideOnMobile"><a href="#">Menu</a></li>
+            <li class="hideOnMobile"><a href="#">Aout Us</a></li>
+            <li class="menubutton" onclick=showSidebar()> <img class="menu" src="pics/menu.png"> </li>
+        </ul>
+    </nav>
+</header>
+
+<body>
+    <img class="glass" src="pics/wepik-export-20240330073743f4N8.png">
+    <h1 class="heroHeading">
+        World's 1st<br> Smart Aid<br> Glasses for<br>
+    </h1>
+    <div class="deaf">
+        <h2> Deaf</h2>
+        <div class="dot"></div>
+        <h2>Mute</h2>
+        <div class="dot"></div>
+        <h2>Blind </h2>
+    </div>
+    <h2 class="productname4"> Get Early Access<br></h2>
+    <div class="circel"></div>
+    <div class="sec2">
+        <h2 class="secnd">Why Able Innovation Exists</h2>
+        <div class="sec2data">
+            <video controls autoplay loop class="video" src="pics/anim.0ae96bd64f4245a807ea.mp4"></video>
+
+            <div class="sec2txt">
+                <ul>
+                    <li>Globally, there are over 680 million people who are deaf, hard of hearing, mute, or blind.</li>
+                    <li>India alone is home to more than 80 million individuals belonging to these diverse disability groups.</li>
+                    <li>Sadly, an estimated 90% of these individuals lack access to education and often face poverty.</li>
+                    <li>Or these individuals, accessing essential information, education, and communication channels remains a significant challenge.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="sec2circle"></div>
+    </div>
+
+    <div class="sec3">
+        <div class="inntxt">
+            <h2 class="inno"> Our Innovation</h2>
+            <l1>Able glasses aims to provide smart aid</l1><br>
+            <l2>glasses for Deaf, Mute and Blind.</l2><br>
+            <l3>The Able glasses uses patented bone</l3><br>
+            <l4>conduction to enable Deaf to Listen,</l4><br>
+            <l5>interpret signs & acts as voice assist tool</l5><br>
+            <l6>for the mute, the sensory audio-based</l6><br>
+            <l7>information enables the blind to visualize.</l7><br>
+            <l8>The open ear design makes able glasses a </l8><br>
+            <l9>complete smart glasses device for everyone</l9><br>
+        </div>
+
+        <div class="about">About US</div>
+        <div class="card">
+            <div class="cd1">
+                <img class="ear" src="pics/ear.png">
+                <ul class="matter">
+                    <h3 class="cd01">Glasses for Deaf & Hard of hearing</h3>
+                    <li class="cd11"> Patented Dome Bone Conduction Transducer</li>
+                    <li class="cd12">Arrays of Microphones</li>
+                    <li class="cd13">Bluetooth & Rechargeable</li>
+                </ul>
+            </div>
+            <div class="cd2">
+                <img class="ear" src="pics/eye.png">
+                <ul class="matter">
+                    <h2 class="cd01">Glasses for Blind</h2>
+                    <li class="cd11"> Objects & Face Recognition</li>
+                    <li class="cd12"> 1080p front camera</li>
+                </ul>
+            </div>
+            <div class="cd3">
+                <img class="ear" src="pics/mute.png">
+                <ul class="matter">
+                    <h2 class="cd01"> Glasses for Mute</h2>
+                    <li class="cd11"> Real time sign language to audio conversion</li>
+                    <li class="cd12"> Pairs of side camera & speaker.</li>
+                    <li class="cd13"> Offline processing</li>
+                </ul>
+            </div>
+            <div class="cd4">
+                <img class="ear" src="pics/sm.png">
+                <ul class="matter">
+                    <h2 class="cd01">Smart Case </h2>
+                    <li class="cd11"> Day long battery backup </li>
+                    <li class="cd12"> Desktop computer mode.</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+    <div class="sec4">
+        <h1 class="text"> How able glasse work</h1>
+        <div class="sec2data">
+            <div class="sec3circle"></div>
+            <video controls autoplay loop class="video1" src="pics/anim.0ae96bd64f4245a807ea.mp4"></video>
+        </div>
+    </div>
+    <div class="sec5">
+        <h2 class="txtsup"> Our Supporters</h2>
+        <img class="iit" src="pics/supp1.90743b57533127f65b96.png">
+        <img class="google" src="pics/download (1).png">
+        <img class="samsung" src="pics/download (2).png">
+        <img class="atal" src="pics/supp4.8d19f8fcd6e18c93abc4.png">
+        <img class="iitk" src="pics/supp5.c62fb58826198faf2250.png">
+
+    </div>
+</body>
+ <script>
+    function showSidebar() {
+        const sidebar = document.querySelector('.sidebar')
+        sidebar.style.display = 'flex'
+    }
+
+    function hideSidebar() {
+        const sidebar = document.querySelector('.sidebar')
+        sidebar.style.display = 'none'
+    }
+</script>
+
+
+</html>
